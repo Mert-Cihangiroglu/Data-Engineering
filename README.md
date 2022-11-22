@@ -34,3 +34,4 @@ Possible  questions that can be asked in Big Data Engineering courses and interv
 
 -  Good source for Hadoop: https://www.guru99.com/learn-hadoop-in-10-minutes.html
 -  Questions: https://www.guru99.com/data-engineer-interview-questions.html
+-  Cassandra Architecture: https://www.guru99.com/cassandra-architecture.html
