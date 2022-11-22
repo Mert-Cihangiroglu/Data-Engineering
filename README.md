@@ -14,3 +14,18 @@ Possible  questions that can be asked in Big Data Engineering courses and interv
 - Apache Hadoop is an open source software framework used to develop data processing applications which are executed in a distributed computing environment.
 - Applications built using HADOOP are run on large data sets distributed across clusters of commodity computers. Commodity computers are cheap and widely available. These are mainly useful for achieving greater computational power at low cost.
 
+### What is NameNode?
+ - It is the centerpiece of HDFS(Hadoop Distributed File System). It stores data of HDFS and track various files accross the clusters. The actual data isn't stored. The data is stored in DataNodes.
+ 
+ ### Define Hadoop streaming.
+ - It is a utility which allows for creation of the map and Reduces jobs and submits them to a specific cluster.
+ 
+ ### Define Block and Block Scanner in HDFS.
+ - Blocks are the smallest unit of a data file. Hadoop automatically splits huge files into small pieces. Block Scanner verifies the list of blocks that are presented on a DataNode.
+ 
+ ### What are the steps that occur when Block Scanner detects a corrupted data block?
+ - Following are the steps that occur when Block Scanner find a corrupted data block:
+ 1- When block scanner find a corrupted data block, DataNode report to NameNode.
+ 2- NameNode start the process of creating a new replica using a replica of the corrupted block.
+ 3- Replication count of the correct replicas tries to match with the replication factor. If the match found corrupted data block will not be deleted.
+ 
