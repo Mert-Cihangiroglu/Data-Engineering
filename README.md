@@ -29,3 +29,7 @@ Possible  questions that can be asked in Big Data Engineering courses and interv
  2- NameNode start the process of creating a new replica using a replica of the corrupted block.
  3- Replication count of the correct replicas tries to match with the replication factor. If the match found corrupted data block will not be deleted.
  
+ 
+ ### Sources
+
+-  Good source for Hadoop: https://www.guru99.com/learn-hadoop-in-10-minutes.html
