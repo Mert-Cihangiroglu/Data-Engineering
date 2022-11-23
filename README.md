@@ -1,7 +1,7 @@
 ## Data Analytics Lifecycle
 
 ### Key Roles for a DA Project
-1. Business User
+1. Business User.
 ⋅⋅⋅Understand the domain and needs the results. Decide how the outcome is presented. Work closely with the project team.
 2. Sponsor
 ⋅⋅⋅Define Core Business Problem. Provide requirements. Provide funding.
